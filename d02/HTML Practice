@@ -1,0 +1,32 @@
+<h1>Hello</h1>
+  
+ <p>
+   Here is some stuff not in a tag. I can write all sorts of details. 
+</p>
+
+<h3>Delicious Trader Joe's Products</h3>
+
+<ol>
+  <li>Green Tea Mochi</li>
+  <li>BBQ Chicken Pizza</li>
+</ol>
+
+
+<table>
+  <tr>
+    <td>Product</td>
+    <td>Price</td>
+  </tr>
+  <tr>
+    <td>Green Tea Mochi</td>
+    <td>$3.99</td>
+    </tr>
+  <tr>
+    <td>BBQ Chicken Pizza</td>
+    <td>$4.39</td>
+  </tr>
+</table>
+
+<p>
+  Click <a href="http://example.com">Here</a> for things.
+</p>
