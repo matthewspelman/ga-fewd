@@ -1,0 +1,23 @@
+/*
+This is my first css file
+*/
+
+h1 {
+	color: rgb(250, 5, 29);
+}
+
+.red-background {
+	background-color: red;
+}
+
+ul {
+	color: green;
+}
+
+li {
+	color:orange;
+}
+
+#point-break {
+	color: orange;
+}
