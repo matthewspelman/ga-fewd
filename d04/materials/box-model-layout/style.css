@@ -1,0 +1,39 @@
+h1
+{
+	background-color: black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 3px;
+}
+
+.grey
+{
+	background-color: #D3D3D3;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
+		
+.blue
+{
+	background-color: #FFA07A;
+	color: #0722BA;
+	padding: 10px;
+}	
+	
+.green
+{
+	background-color: #FFA07A;
+	color: #05A33D;
+	padding: 10px;
+}
+
+.yellow
+{
+	background-color: #FFA07A;
+	color: yellow;
+	padding: 10px;
+}

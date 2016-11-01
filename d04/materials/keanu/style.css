@@ -1,0 +1,21 @@
+h1 {
+  color: #7FDBFF;
+  background-color: #C0C0C0;
+  padding: 90px;
+  height: 90px;
+  width: 100px;
+  border: 90px;
+}
+
+.red-box {
+	background-color: red;
+	width: 100px;
+	height: 130px;
+	margin-bottom: 10px;
+}
+
+.green-box{
+	background-color: green;
+	width: 25px;
+	height: 25px;
+}
