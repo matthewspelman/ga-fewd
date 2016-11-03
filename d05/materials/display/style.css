@@ -1,0 +1,32 @@
+.red-box {
+  height: 130px;
+  width: 475px;
+  background-color: red;
+  padding: 0;
+  display: inline-block;
+  margin: 0;
+}
+
+.first {
+	margin-right: 10px;
+}
+
+
+.container {
+	width: 960px;
+	border: 1px dashed black;
+	line-height: 1;
+}
+
+.eighties {
+	color: red;
+}
+
+
+.later {
+	color: green;
+}
+
+li{
+	font-weight: bold;
+}
