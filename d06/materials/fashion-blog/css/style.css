@@ -1,0 +1,76 @@
+/* Sartre's list - remember to add some padding*/
+h1 {
+  	color: #DD0000;
+  	font-size: 50px;
+  	font-weight: normal;
+  }
+
+/* Article Title */
+h2 {
+	color: black;
+}
+
+/* Article paragraphs */
+p {
+	color: #444444;
+	display: inline-block;
+}
+
+/* Better-dressed People */
+h3 {
+	color: black;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+/* date */
+h4 {
+	color: #cccccc;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+/* Copyright */
+h5{
+	color: #bbbbbb;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+/* Continue... */
+h6{
+	color: #DD0000;
+	font-size: 20px;
+	text-align: right;
+}
+
+body {
+  	font-family: "Lato", sans-serif;
+  	width: 960px;
+  	padding: 50px;
+  	font-size: 20px;
+ }
+
+/* navigation links hover */
+a {
+	color: #dddddd;
+	padding: 25px 10px;
+	display: inline-block;
+}
+
+/* navigation links hover effect */
+ a:hover {
+ 	color: black;
+ }
+ 	
+/* links at the bottom */
+.link {
+	color: #dd0000;
+	display: inline-block;
+}
+
+.link:hover {
+	color: #aa0000;
+	cursor: normal;
+}
+
