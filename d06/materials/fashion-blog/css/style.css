@@ -2,12 +2,14 @@
 h1 {
   	color: #DD0000;
   	font-size: 50px;
-  	font-weight: normal;
-  }
+  	font-weight: 300;
+  	margin: 0px;
+ }
 
 /* Article Title */
 h2 {
 	color: black;
+	font-weight: 300;
 }
 
 /* Article paragraphs */
@@ -21,6 +23,7 @@ h3 {
 	color: black;
 	font-size: 25px;
 	font-weight: normal;
+	margin: 0px;
 }
 
 /* date */
@@ -49,27 +52,29 @@ body {
   	width: 960px;
   	padding: 50px;
   	font-size: 20px;
+  	font-weight: 300px;
  }
 
 /* navigation links hover */
-a {
+.nav a {
 	color: #dddddd;
 	padding: 25px 10px;
 	display: inline-block;
-}
+} 
 
 /* navigation links hover effect */
- a:hover {
+.nav a:hover {
  	color: black;
  }
  	
 /* links at the bottom */
-.link {
+.bottom_link a {
 	color: #dd0000;
 	display: inline-block;
+	text-decoration: none;
 }
 
-.link:hover {
+.bottom_link a:hover {
 	color: #aa0000;
 	cursor: normal;
 }
