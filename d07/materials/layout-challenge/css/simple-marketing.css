@@ -1,0 +1,13 @@
+.box {
+	background-color: grey;
+	border: 1px solid black;
+	height: 100px;
+}
+
+.middle {
+	height: 400px;
+}
+
+.bottom {
+	height: 100px;
+}
