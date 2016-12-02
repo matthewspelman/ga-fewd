@@ -37,6 +37,7 @@ header {
 }
 
 header h1 {
+  font-family: serif;
   color: yellow;
   padding-left: 20px;
 }
@@ -48,6 +49,7 @@ header nav {
 }
 
 header nav a {
+  font-family: serif;
   color: white;
   text-decoration: none;
   margin: 0 5px;
