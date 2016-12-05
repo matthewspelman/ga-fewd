@@ -1,0 +1,30 @@
+button {
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 1px 1px grey;
+	display: block;
+}
+
+button:focus, button:hover {
+	background-color: #d3d3d3;
+}
+
+header {
+	padding: 5px;
+}
+
+before.click {
+	display: none;
+}
+
+div.dropdown {
+	background-color: white;
+	display: inline-block;
+	border: 1px solid grey;
+	width: 15%;
+}
+
+div.dropdown:focus, button:hover {
+	background-color: #d3d3d3;
+}
