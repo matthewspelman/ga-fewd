@@ -1,26 +1,32 @@
 console.log("is this working?");
 
-$("button#ct").on("click", function() {
-	$("h1").text(ct["name"]);
-	$("span.capital")
-
-})
-
-
-	var ct = {
+var ct = {
 	  name: "Connecticut",
 	  capital: "Hartford",
 	  governor: "Dannel Malloy",
 	  usSenators: ["Richard Blumenthal", "Christopher S. Murphy"]
-	};
-	console.log(ct["capital"]["governor"]);
+}
 
-})
+$("button#ct").on("click", function() {
+	$("h1").text(ct["name"]);
+	$("span.capital").text(ct["capital"]);
+	$("span.governor").text(ct["governor"]);
+	$("li#first-senator").text(ct["usSenators"][0]);
+	$("li#second-senator").text(ct["usSenators"][1]);
+});
 
 
 var ny = {
-	  name: "New York",
-	  capital: "Albany",
-	  governor: "Andrew Cuomo",
-	  usSenators: ["Chuck Schumer", "Kirsten Gillibrand"]
-	};
+		  name: "New York",
+		  capital: "Albany",
+		  governor: "Andrew Cuomo",
+		  usSenators: ["Chuck Schumer", "Kirsten Gillibrand"]
+}
+
+$("button#ny").on("click", function() {
+	$("h1").text(ny["name"]);
+	$("span.capital").text(ny["capital"]);
+	$("span.governor").text(ny["governor"]);
+	$("li#first-senator").text(ny["usSenators"][0]);
+	$("li#second-senator").text(ny["usSenators"][1]);
+});
