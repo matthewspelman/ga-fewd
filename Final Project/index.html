@@ -2,15 +2,18 @@
 <html lang="en">
 <head> 
 	<title>Laundrypaid.com</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" href="css/simple-grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>	
-	<nav class="navbar navbar-inverse">
+	<header class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -18,60 +21,135 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                      
 	      </button>
-	      <a class="navbar-brand" href="#">laundrypaid.com</a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Home</a></li>
+	        <li><a href="#"><img src="img/Header Nav Logo.jpg" width="200" height="200"></a></li>
 	        <li class="dropdown">
-	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">How it Works<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="#">Page 1-1</a></li>
-	            <li><a href="#">Page 1-2</a></li>
-	            <li><a href="#">Page 1-3</a></li>
+	            <li><a href="#">About</a></li>
+	            <li><a href="#">Download app</a></li>
+	            <li><a href="#">Safe and Secure</a></li>
 	          </ul>
 	        </li>
-	        <li><a href="#">Page 2</a></li>
-	        <li><a href="#">Page 3</a></li>
+	        <li><a href="#">Our Team</a></li>
+	        <li><a href="#">Blog</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
 	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 	      </ul>
 	    </div>
 	  </div>
-	</nav>
-
+	</header>
+	<!-- Contents below Nav Bar !-->
 	<div class="container">
-		<header>
-		  	<h3>Forget coins. Forever.</h3>
-		  	<p>Never pay for your laundry with coins ever again. Stop waiting in line at the bank.</p>
-			<div id="shop">
-				<div class="content">
-					<img src="img/2.jpg"/>
-					<a href="#">Sign up Now</a>
-				</div>
+		<section>
+		  	<img class="laundrypaid-logo" src="img/Logo asset.jpg" width="100" height="100">
+		  	<h1>No more coins at the laundromat with Laundrypaid.com</h1>
+		  	<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Sign Up</button>
+		  	<br></br>
+		</section>
+		<section>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  			<!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+		
+  			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="img/1.jpg" alt="img/2.jpg">
+			      <div class="carousel-caption">
+			        <h3>Unlock</h3>
+    				<p>Use your phone to unlock the washer machine.</p>
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="img/3.jpg" alt="">
+			      <div class="carousel-caption">
+			        <h3>Pay instantly</h3>
+    				<p>Pay for your laundry services without cash or coins.</p>
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="img/2.jpg" alt="">
+			      <div class="carousel-caption">
+			        <h3>Wash your clothes</h3>
+    				<p>Dig through your jeans to spend your coins elsewhere and not in the laundromat.</p>
+			      </div>
+			    </div>
+			 </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
 			</div>
-			<div id="middle">
-				<div class="middle-content">
-					<img src="img/1.jpg"/>
-				</div>
+		</section>
+		<br></br>
+		<section class="post">
+			<img src="img/Apple logo.jpg" width="120" height="120">
+			<img src="img/Android logo.jpg" width="29" height="29">
+		</section>
+	  	<section class="actions grid grid-pad">
+	  		<h2>How it Works</h2> 
+		  		<div class="col-1-3">
+		  			<i class="material-icons">get_app</i>
+		  			<h3>Step 1: Download</h3>
+		  				<p>Download the Laundrypaid app for iPhone or Android.</p>
+		  		</div>
+		  		<div class="col-1-3">
+		  			<i class="material-icons">payment</i>
+		  			<h3>Step 2: Select payment</h3>
+		  				<p>Pay effortlessly with Apple Pay, Google Wallet, or PayPal within the app.</p>
+		  		</div>
+	  			<div class="col-1-3">
+		  			<i class="material-icons">done</i>
+		  			<h3>Step 3: It's go time!</h3>
+		  				<p>No need for waiting in line at the bank or grocery store for coins!</p>
+		  		</div>
+		</section>
+	  	<section class="actions grid grid-pad">
+		  	<h2>Contact Us</h2>
+		  	<div class="col-1-3">
+				<i class="material-icons">call</i>
+					<h4>1-800-LAUNDRY</h4>
+	      	</div>
+			<div class="col-1-3">
+	      		<i class="material-icons">mail_outline</i>
+	      			<h4>info@laundrypaid.com</h4>
+	      	</div>
+	      	<!--Input social media icons here. !-->
+	      	<section class="col-1-3-social">
+	      		<img src="img/facebook.jpg" width="29" height="29">
+	      		<img src="img/instagram.jpg" width="29" height="29">
+	      		<img src="img/twitter.jpg" width="29" height="29">
+	      			<h4>Connect with us.</h4>
 			</div>
-			
-			<div id="bottom">
-				<div class="bottom-content">
-					<img src="img/3.jpg"/>
-				</div>
-			</div>
-		</header>
+      	</section>
+      	<br></br>
+		<footer>
+			<small>© 2016 Laundrypaid.com. Made in NYC.</small>
+		<!-- Return to Top -->
+			<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+		</footer>
 	</div>
+	<!-- Javascript sources !-->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/project.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+	<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58508231be07f327"></script> 
 </body>
-
-<footer>
-	<h3>laundrypaid.com</h3>
-</footer>
 </html>
