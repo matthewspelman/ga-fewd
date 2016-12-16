@@ -4,6 +4,7 @@
 	<title>Laundrypaid.com</title>
 	<meta charset="utf-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,16 +28,10 @@
 	      <ul class="nav navbar-nav">
 	        <li><a href="#"><img src="img/Header Nav Logo.jpg" width="200" height="200"></a></li>
 	        <li class="dropdown">
-	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">How it Works<span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">About</a></li>
+	            <li><a href="#how-it-works">How it Works</a></li>
+	            <li><a href="#contact-us">Contact Us</a></li>
 	            <li><a href="#">Download app</a></li>
-	            <li><a href="#">Safe and Secure</a></li>
-	          </ul>
-	        </li>
-	        <li><a href="#">Our Team</a></li>
-	        <li><a href="#">Blog</a></li>
-	      </ul>
+	     </ul>
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
 	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -49,8 +44,16 @@
 		<section>
 		  	<img class="laundrypaid-logo" src="img/Logo asset.jpg" width="100" height="100">
 		  	<h1>No more coins at the laundromat with Laundrypaid.com</h1>
-		  	<label>Email<input type="text" id="email"></label>
-			<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Notify Me!</button>
+		  	<div id="mc_embed_signup">
+				<form action="//laundrypaid.us14.list-manage.com/subscribe/post?u=c85294cf060c1b4384da14a25&amp;id=e428659161" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: relative; left: -5000px;" aria-hidden="true"><input type="text" name="b_c85294cf060c1b4384da14a25_e428659161" tabindex="-1" value=""></div>
+					    <div class="clear"><input type="submit" value="Sign Up for Beta" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				    </div>
+				</form>
+			</div>
 		</section>
 		<br></br>
 		<section>
@@ -103,8 +106,10 @@
 			<img src="img/Apple logo.jpg" width="120" height="120">
 			<img src="img/Android logo.jpg" width="29" height="29">
 		</section>
+		<br></br>
 	  	<section class="actions grid grid-pad">
-	  		<h2>How it Works</h2> 
+	  	<br></br>
+	  		<h2 id="how-it-works">How it Works</h2> 
 		  		<div class="col-1-3">
 		  			<img src="img/download.jpg">
 		  			<h3>Step 1: Download</h3>
@@ -121,8 +126,14 @@
 		  				<p>No need for waiting in line at the bank or grocery store for coins!</p>
 		  		</div>
 		</section>
+		<br></br>
+		<br></br>
+		<br></br>
+	  	<div class="long-graphic">
+	  		<img src="img/8.jpg">
+	  	</div>
 	  	<section class="actions grid grid-pad">
-		  	<h2>Contact Us</h2>
+		  	<h2 id="contact-us">Contact Us</h2>
 		  	<div class="col-1-2">
 				<i class="material-icons">call</i>
 					<h4>1-800-LAUNDRY</h4>
