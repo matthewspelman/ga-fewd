@@ -28,13 +28,12 @@
 	      <ul class="nav navbar-nav">
 	        <li><a href="#"><img src="img/Header Nav Logo.jpg" width="200" height="200"></a></li>
 	        <li class="dropdown">
-	            <li><a href="#how-it-works">How it Works</a></li>
-	            <li><a href="#contact-us">Contact Us</a></li>
-	            <li><a href="#">Download app</a></li>
+	            <li><a data-scroll href="#how-it-works">How it Works</a></li>
+	            <li><a data-scroll href="#contact-us">Contact Us</a></li>
 	     </ul>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
-	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <!--remove for now<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>!-->
+	        <li><a data-scroll href="#mc_embed_signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 	      </ul>
 	    </div>
 	  </div>
@@ -130,7 +129,7 @@
 		<br></br>
 		<br></br>
 	  	<div class="long-graphic">
-	  		<img src="img/8.jpg">
+	  		<img src="img/8.jpg" width="1140" height="1000">
 	  	</div>
 	  	<section class="actions grid grid-pad">
 		  	<h2 id="contact-us">Contact Us</h2>
@@ -151,13 +150,15 @@
 				<a class="social-button dribbble" href="#"><i class="fa fa-dribbble"></i></a>
 				<a class="social-button skype" href="#"><i class="fa fa-skype"></i></a>
 			</div>
-			<small>© 2016 Laundrypaid.com. Made in NYC.</small>
+			<small>© 2016 Laundrypaid.com. Made in NYC. We respect your privacy and will not share your information.</small>
 			<!-- Return to Top -->
 			<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 		</footer>
 	</div>
 	<!-- Javascript sources !-->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script>smoothScroll.init();</script>
 	<script src="js/project.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
